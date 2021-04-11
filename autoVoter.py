@@ -43,7 +43,8 @@ while True:
     time.sleep(10)
     web.refresh()
 
-    web.get('https://topminecraftservers.org/server/16816')
+    webPage = "https://topminecraftservers.org/server/16816"
+    web.get(webPage)
 
 
     voteButton = web.find_element_by_xpath("/html/body/div[3]/div/div/div/div[2]/a")
