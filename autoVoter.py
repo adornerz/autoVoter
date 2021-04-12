@@ -32,7 +32,7 @@ while True:
             vpnCountry = "US"
             UsUsage += 1
             vpnNum = UsUsage
-            print(f"Using US server number {JpUsage}")
+            print(f"Using US server number {UsUsage}")
     else:
         print("Out of servers, breaking.")
         break
